@@ -1,0 +1,50 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#000009">
+
+        <EditText
+            android:id="@+id/newTaskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:hint="Title"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/newTaskText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newTaskTitle"
+            android:background="@android:color/transparent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:hint="Add Task"
+            android:padding="10dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/newTaskBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/newTaskText"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#061FAA"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

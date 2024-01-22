@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparentBlack">#80000000</color>
+    <color name="transparent">#80FFFFFF</color>
+    <color name="dark">#061FAA</color>
+    <color name="gray">#AED8DD</color>
+    <color name="Red">#BA1010</color>
+    <color name="back">#B4B9D3</color>
+    <color name="defaultBackgroundColor">#B4B9D3</color>
+    <color name="defaultTaskCardColor">#C8BA3F</color>
+    <color name="colorOption1">#1F3ACD</color>
+    <color name="colorOption2">#C8BA3F</color>
+    <color name="colorOption3">#BF4E36</color>
+    <color name="colorOption4">#4CAF50</color>
+
+
+</resources>
